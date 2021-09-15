@@ -7,7 +7,7 @@ body {
 
 .banner {
 	display: block;
-	min-height: 200px;
+	min-height: 300px;
 	width: 100%;
 	position: relative;
 }
@@ -46,4 +46,19 @@ body {
 .typed-cursor{
    opacity: 0;
 	display: none;
+}
+
+.imageself {
+	display: flex;
+	flex-flow: nowrap;
+	padding: 0 10em;
+}
+
+.selfieimage {
+	margin-left: -50px;
+}
+
+.selfimage {
+	height: 35em;
+	width: auto;
 }

@@ -1916,6 +1916,46 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+		/* FABicons */
+
+			#icon {
+		text-decoration: none;
+		text-decoration: none;
+	}
+
+		.icon:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			display: inline-block;
+			font-style: normal;
+			font-variant: normal;
+			text-rendering: auto;
+			line-height: 1;
+			text-transform: none !important;
+			font-family: 'Font Awesome 5 Free';
+			font-weight: 400;
+			color: #e97770;
+			margin: 0 0 0.75em 0;
+			letter-spacing: 0.05em;
+		}
+
+		#icon:before {
+			line-height: inherit;
+			font-size: 1.25em;
+		}
+
+		#icon > .label {
+			display: none;
+		}
+
+		#icon.solid:before {
+			font-weight: 900;
+		}
+
+		#icon.brands:before {
+			font-family: 'Font Awesome 5 Brands';
+		}
+
 /* Box */
 
 	.box header {
@@ -2042,6 +2082,7 @@ input, select, textarea {
 
 	#page-wrapper > section {
 		margin-bottom: 0;
+
 	}
 
 /* Header */
@@ -2061,7 +2102,7 @@ input, select, textarea {
 		justify-content: center;
 		position: relative;
 		height: 24em;
-		background: url("images/c&s.png");
+		background: url("images/c&s2.png");
 		background-size: cover;
 		padding: 0;
 	}
@@ -2077,7 +2118,7 @@ input, select, textarea {
 		}
 
 		.homepage #header {
-			height: 35em;
+			height: 60em;
 		}
 
 /* Logo */
