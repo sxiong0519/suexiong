@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+
+
 body {
 	background: #34495e;
 	color: #ecf0f1;
@@ -74,3 +77,8 @@ body {
 	justify-content: space-between;
 	width:auto;
 } */
+
+.projectdetails {
+	color: #202127;
+	font-family: 'Short Stack',Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
