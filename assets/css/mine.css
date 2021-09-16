@@ -14,7 +14,7 @@ body {
 .typed_wrap {
 	display: block;
 	border: 4px solid #ecf0f1;
-	width: 500px;
+	width: 750px;
 	height: auto;
 	padding: 30px;
 	
@@ -55,10 +55,22 @@ body {
 }
 
 .selfieimage {
-	margin-left: -50px;
+	margin-left: -60px;
 }
 
 .selfimage {
-	height: 35em;
+	height: 40em;
 	width: auto;
 }
+
+.icons:before {
+	line-height: inherit;
+	font-size: 2em;
+}
+
+/* .socialmedia {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width:auto;
+} */

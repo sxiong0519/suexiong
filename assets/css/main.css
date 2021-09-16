@@ -1842,7 +1842,7 @@ input, select, textarea {
 
 		@media screen and (min-width: 981px) {
 
-			.feature-list > .row > :nth-child(-n + 2) > section {
+			.feature-list > .row > :nth-child(-n + 4) > section {
 				border-top: 0;
 				padding-top: 0;
 			}
@@ -1923,7 +1923,7 @@ input, select, textarea {
 		text-decoration: none;
 	}
 
-		.icon:before {
+		#icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			display: inline-block;
@@ -1934,12 +1934,14 @@ input, select, textarea {
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
 			font-weight: 400;
-			color: #e97770;
-			margin: 0 0 0.75em 0;
-			letter-spacing: 0.05em;
 		}
 
-		#icon:before {
+		.fas:before {
+			line-height: inherit;
+			font-size: 1.25em;
+		}
+
+		.fab:before {
 			line-height: inherit;
 			font-size: 1.25em;
 		}
@@ -2118,7 +2120,7 @@ input, select, textarea {
 		}
 
 		.homepage #header {
-			height: 60em;
+			height: 70em;
 		}
 
 /* Logo */
