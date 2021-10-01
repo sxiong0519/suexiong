@@ -48,8 +48,8 @@
 
     $(function () {
         element.typed({
-            strings: ["a Software Developer", "a Designer", "Hmong", "a Dog Mom", "'a Food Connoisseur'", "a Home Chef"],
-            typeSpeed: 100,
+            strings: ["Software Developer", "Designer", "Dr. Pepper Connoisseur", "Home Chef"],
+            typeSpeed: 150,
             loop: true,
             autoplay: true,
         });
